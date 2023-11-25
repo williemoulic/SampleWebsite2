@@ -40,13 +40,21 @@ main{
   font-family: "Billabong";
 }
 
+.page .header > a{
+  font-family: Helvetica Neue, sans-serif;
+  font-size: 16px;
+  color: black;
+}
+
 .page .header > p{
+  font-family: Helvetica Neue, sans-serif;
   font-weight: bold;
   color: #8e8e8e;
-  font-size: 18px;
+  font-size: 19px;
 }
 
 .page .header > button{
+  font-family: Helvetica Neue, sans-serif;
   cursor: pointer;
   width: inherit;
   padding: 10px 20px;
@@ -94,6 +102,7 @@ main{
 }
 
 .page .container form button{
+  font-family: Helvetica Neue, sans-serif;
   cursor: pointer;
   width: inherit;
   margin-bottom: 20px;
@@ -106,6 +115,7 @@ main{
 
 /* option style */
 .option p > a{
+    font-family: Helvetica Neue, sans-serif;
     text-decoration: none;
     color: #00a0f7;
 }
@@ -120,6 +130,7 @@ main{
 }
 
 .otherapps > button{
+  font-family: Helvetica Neue, sans-serif;
   cursor: pointer;
   border: none;
   border-radius: 5px;
@@ -163,7 +174,7 @@ main{
 
 @media only screen and (min-width: 401px){
     body {
-        font-family: Neue Helvetica
+        font-family: Helvetica Neue
     }
   .page{
     border: 1px solid #dbdbdb;
